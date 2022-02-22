@@ -1,0 +1,44 @@
+.container{
+    color: rgb(247, 33, 44);
+    display: grid;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1.75fr 1fr;
+    column-gap: 30px;
+    row-gap: 25px;
+}
+.box{
+    text-align: center;
+    padding: 20px;
+}
+.box1{
+    background-color: rgb(241, 177, 177);
+    grid-column: 1/-1;
+    font-size: 25px;
+}
+.box2{
+    background-color: greenyellow;
+    font-size: 25px;
+    padding-top: 90px;
+    grid-row:2/4 ;
+}
+.box3{
+    background-color: limegreen;
+    font-size: 25px;
+}
+.box4{
+    background-color: rgb(42, 95, 165);
+    font-size: 25px;
+}
+.box5{
+    background-color: aqua;
+    font-size: 25px;
+    grid-column: 1/-1;
+}
+.box6{
+    background-color: rgb(56, 23, 133);
+    grid-column: 1/-1;
+    font-size: 25px;
+}
